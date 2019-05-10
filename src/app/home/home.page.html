@@ -1,14 +1,16 @@
 <ion-header>
   <ion-toolbar>
     <ion-title>
-      Ionic Blank
+      Home Page
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
   <div class="ion-padding">
-    The world is your oyster.
-    <p>If you get lost, the <a target="_blank" rel="noopener" href="https://ionicframework.com/docs/">docs</a> will be your guide.</p>
+    <div class="square" id="mod1" (click)="goTo('mod1')">Go to module 1</div>
+    <div class="square" id="mod2" (click)="goTo('mod2')">Go to module 2</div>
+    <div class="square" id="mod3" (click)="goTo('mod3')">Go to module 3</div>
+    <div class="square" id="mod4" (click)="goTo('mod4')">Go to module 4</div>
   </div>
 </ion-content>
